@@ -39,3 +39,9 @@ variable "kube_version" {
   type        = string
   description = "Kubernetes version that you want to set up in your cluster."
 }
+
+variable "TF_VERSION" {
+  default = "0.12"
+  description = "terraform engine version to be used in schematics"
+}
+
